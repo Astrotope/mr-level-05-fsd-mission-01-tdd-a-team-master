@@ -131,4 +131,4 @@ function generateQuote(input) {
   };
 }
 
-module.exports = generateQuote;
+module.exports = { generateQuote };
