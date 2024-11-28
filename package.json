@@ -1,0 +1,60 @@
+{
+
+  "name": "backend",
+
+  "version": "0.0.1",
+
+  "description": "- [x] [01] Create GitHub Repository\r - [x] [02] Create PAT token to allow developers to have read/write access to repo. contents and pull-requests.\r - [x] [03] Create PAT token to allow management of GitHub workflows with read/write workflow, content, and pull-request permission.",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "test": "jest --detectOpenHandles"
+
+  },
+
+  "keywords": [],
+
+  "author": "The A-Team",
+
+  "license": "MIT",
+
+  "devDependencies": {
+
+    "jest": "^29.7.0",
+
+    "supertest": "^7.0.0"
+
+  },
+
+  "repository": {
+
+    "type": "git",
+
+    "url": "git+https://github.com/Astrotope/mr-level-05-fsd-mission-01-tdd-a-team.git#feature"
+
+  },
+
+  "bugs": {
+
+    "url": "https://github.com/Astrotope/mr-level-05-fsd-mission-01-tdd-a-team/issues"
+
+  },
+
+  "homepage": "https://github.com/Astrotope/mr-level-05-fsd-mission-01-tdd-a-team/tree/feature#readme",
+
+  "dependencies": {
+
+    "body-parser": "^1.20.3",
+
+    "cors": "^2.8.5",
+
+    "express": "^4.21.1",
+
+    "multer": "^1.4.5-lts.1"
+
+  }
+
+}
+

@@ -1,0 +1,23 @@
+const express = require('express');
+const { calculateCarValue } = require('./api-01');
+const { calculateRiskRating } = require('./api-02');
+const { generateQuote } = require('./api-03');
+
+const router = express.Router();
+
+router.post('/calculateCarValue', (req, res) => {
+  const result = calculateCarValue(req.body);
+  res.json(result);
+});
+
+router.post('/calculateRiskRating', (req, res) => {
+  const result = calculateRiskRating(req.body);
+  res.json(result);
+});
+
+router.post('/generateQuote', (req, res) => {
+  const result = generateQuote(req.body);
+  res.json(result);
+});
+
+module.exports = router;
